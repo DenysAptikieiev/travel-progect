@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1280px;
+}
+header {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header a {
+  text-decoration: none;
+}
+header ul {
+  list-style: none;
+}
+header li {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #000;
+}
+header li:not(:last-child) {
+  margin-right: 20px;
+}
+header li:hover {
+  background-color: lightblue;
+  color: #fff;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.tour {
+  color: grey;
+}
+.indo {
+  font-size: 26px;
+  color: blue;
+}
+.banner {
+  background-image: url(../img/banner.png);
+  padding: 100px 0 70px 0;
+  height: 550px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner h1 {
+  display: block;
+  font-size: 2.5em;
+  font-weight: normal;
+  color: #fff;
+  width: 700px;
+}
+.banner button {
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+  background-color: lightgreen;
+  border: 5px solid rgba(103, 158, 191, 0.5);
+  padding: 10px 20px;
+  border-radius: 7px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 2px;
+}
+.banner .card {
+  width: 455px;
+  height: 250px;
+  border-radius: 5px;
+  border-bottom: 6px solid lightgreen;
+  background-color: #fff;
+  padding: 10px 30px;
+  position: absolute;
+  top: 85%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.banner .card a {
+  text-decoration: none;
+  color: #9b9a9a;
+}
+.banner .card span {
+  display: inline-block;
+  margin-top: 10px;
+}
+.banner .card div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner .card .textPlaces {
+  width: 479px;
+}
+footer {
+  background-color: #ececec;
+  padding-top: 200px;
+}
+footer .texth2 {
+  text-align: center;
+  color: #9b9a9a;
+}
+footer .icon {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+footer .by {
+  height: 50px;
+  background-color: #9b9a9a;
+  text-align: center;
+  margin-top: 50px;
+}
+footer .by p {
+  display: inline-block;
+}
